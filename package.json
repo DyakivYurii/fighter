@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel index.js -d dist -w",
     "start": "serve"
   },
   "repository": {
@@ -18,6 +19,8 @@
   },
   "homepage": "https://github.com/DyakivYurii/fighter#readme",
   "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
     "serve": "^11.0.0"
   }
 }
